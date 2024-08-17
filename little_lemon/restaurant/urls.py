@@ -1,4 +1,4 @@
-#define URL route for index() view
+# define URL route for index() view
 from django.urls import path, include
 from . import views
 from rest_framework import routers

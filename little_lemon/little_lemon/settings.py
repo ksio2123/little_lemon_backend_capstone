@@ -87,10 +87,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'LittleLemon',
-        'HOST' : '127.0.0.1',
-        'PORT' : '3306',
-        'USER' : 'admindjango',
-        'PASSWORD' : 'employee@123!',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'admindjango',
+        'PASSWORD': 'employee@123!',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
@@ -116,7 +116,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-DJOSER={"USER_ID_FIELD":"username"}
+DJOSER = {"USER_ID_FIELD": "username"}
 
 
 # Internationalization
