@@ -140,3 +140,5 @@ GitHub.sublime-settings
 
 bin/
 lib64
+
+# autopep8 --diff --recursive --exclude="*/migrations/*" --in-place --recursive .
